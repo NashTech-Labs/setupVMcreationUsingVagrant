@@ -1,4 +1,5 @@
 ### vagrant --help
+- This is just for reference, better to get this from your terminal using **vagrant --help** command
 
 - Usage: vagrant [options] <command> [<args>]
 
@@ -34,15 +35,3 @@
     - version         prints current and latest Vagrant version
     - winrm           executes commands on a machine via WinRM
     - winrm-config    outputs WinRM configuration to connect to the machine
-
-- For help on any individual command run `vagrant COMMAND -h`
-
-- Additional subcommands are available, but are either more advanced or not commonly used. To see all subcommands, run the command
--`vagrant list-commands`.
- -       --[no-]color                 Enable or disable color output
- -      --machine-readable           Enable machine readable output
- - -v, --version                    Display Vagrant version
- -    --debug                      Enable debug output
- -   --timestamp                  Enable timestamps on log output
- -  --debug-timestamp            Enable debug output with timestamps
- - --no-tty                     Enable non-interactive output
