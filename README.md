@@ -1,5 +1,14 @@
 # setUpVMusingVagrant
 
+## What's inside setUpVMusingVagrant.sh?
+With this script we will create
+
+- workspace for our VM
+- initialize a vagrant box
+- a index.html file and run that using apache2 in our VM
+- a bootstrap.sh file and provision it to Vagrantfile automatically.
+- reload the VM after provisioning and vagrant ssh to run index.html file
+
 ## How to use
 Make sure you have virtual box installed in your system <br/>
 (You can skip if already installed)<br/>
@@ -10,5 +19,8 @@ Once virtual box installed you can run script to create VM, <br/>
 > run sh ./setUpVMusingVagrant.sh </br> 
 
 - There is a sample workspace created inside this script, you would need to modify according to your need. Like for example in this script we are doing cd to ubuntu, you would need to create directory and cd to that according to your use-case.<br/>
+
+## Screenshot
+
 
 You can get more info about Vagrant from **What-and-why-of-Vagrant.md** and commands from **vagrant-commands.md** <br/>
